@@ -1,0 +1,31 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.0.10",
+    "axios": "^1.8.1",
+    "fetch-event-stream": "^0.1.5",
+    "highlight.js": "^11.11.1",
+    "markdown-it": "^14.1.0",
+    "tailwindcss": "^4.0.10",
+    "vue": "^3.4.29",
+    "vue3-markdown-it": "^1.0.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "naive-ui": "^2.41.0",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^19.1.1",
+    "unplugin-vue-components": "^28.4.1",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}
