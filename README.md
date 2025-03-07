@@ -12,7 +12,6 @@
 │     ├── main.ts
 │   ├── index.html 入口html文件
 │   ├── vite.config.ts vite配置
-├── packages 包管理
 
 ```
 
